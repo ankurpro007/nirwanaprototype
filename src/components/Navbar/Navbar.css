@@ -1,0 +1,12 @@
+.Navbar {
+  display: flex;
+  justify-content: center; /* Center the logo horizontally */
+  align-items: center; /* Center the logo vertically */
+  height: 60px; /* Adjust the height as needed */
+  background-color: #282c34; /* Adjust the background color as needed */
+}
+
+.Navbar-logo {
+  height: 40px; /* Adjust the logo size as needed */
+  cursor: pointer; /* Add a pointer cursor to indicate it's clickable */
+}

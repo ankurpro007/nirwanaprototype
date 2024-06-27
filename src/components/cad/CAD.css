@@ -1,0 +1,42 @@
+.cad-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  gap: 20px;
+}
+
+.upload-button {
+  background-color: #ff5757;
+  border-radius: 10px;
+  padding: 20px 40px;
+  font-size: 16px;
+  color: white;
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.upload-icon {
+  display: block;
+  margin: 0 auto 10px auto;
+  font-size: 30px;
+}
+
+.file-input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0; /* Hide the input but keep it functional */
+  cursor: pointer;
+}
+
+.canvas-container {
+  width: 100%; /* Adjust according to your layout */
+  border: 1px solid #ccc; /* Optional border for the canvas */
+  position: relative; /* For positioning the image name label correctly */
+}
